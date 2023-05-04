@@ -1,0 +1,28 @@
+h1 {
+    color: #E72758;
+}
+form
+{
+    margin-top: 10%;
+    width: 50%;
+}
+img 
+{
+    border-radius: 6px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.btn {
+    background-color: #F5E8EF;
+    color: #613b41;
+    font-weight: bold;
+    border: 1px solid #613b41;
+}
+@media screen and (max-width:600px) {
+    form 
+    {
+        width: 100%;
+    }
+}

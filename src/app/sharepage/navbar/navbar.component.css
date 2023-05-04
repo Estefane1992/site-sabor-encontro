@@ -1,0 +1,10 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color: #572B14;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    
+    text-decoration: underline;
+}

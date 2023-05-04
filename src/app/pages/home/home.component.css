@@ -1,0 +1,105 @@
+.banner {
+    background-image: url('../../../assets/img/banner.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.content
+{
+    top: 40%;
+    left: 10%;
+    position: absolute;
+}
+.content h1 
+{
+    color: #F5E8EF;
+    font-size: 60px;
+    font-weight: bold;
+  
+}
+.content a 
+{
+    text-decoration: none;
+    background-color: #fff;
+    color: #613b41;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.content a:hover 
+{
+    background-color: #777474;
+    color: #fff;
+}
+
+.stepBox 
+{
+    background-color: #F5E8EF;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.stepBox h1 
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: #E72758;
+}
+.stepBox p 
+{
+    font-size: 20px;
+    font-style: italic;
+    color: #613b41;
+}
+.highlight
+{
+    color: #613B41;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.foodbox 
+{
+    padding: 10px 5px;
+} 
+.foodbox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.foodbox h1 
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #E72758;
+}
+.foodbox p {
+    color: #613B41;
+    font-weight: 600;
+}
+.viewmorebtn
+{
+    text-decoration: none;
+    background-color:#F5E8EF;
+    color: #E72758;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #613b41;
+    
+}
+
+@media screen and (max-width:600px)
+{
+    .banner
+{
+    height: 700px;
+}
+}

@@ -28,7 +28,7 @@ export class OrderDetailsService {
     },
     {
       id:4,
-      foodName:"Pudim de Leit",
+      foodName:"Pudim de Leite",
       foodPrice:10,
       foodImg:"https://images.pexels.com/photos/11223911/pexels-photo-11223911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
